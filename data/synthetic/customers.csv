@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,age,city,occupation,annual_income,risk_country_flag
+CUST_00001,Rahul,Patel,19,Chennai,Doctor,1236213,0
+CUST_00002,Vivaan,Verma,23,Kolkata,Software Engineer,424978,0
+CUST_00003,Arjun,Verma,56,Mumbai,Doctor,2585650,0
+CUST_00004,Kavya,Nair,35,Mumbai,Teacher,2072573,0
+CUST_00005,Aditya,Das,66,Pune,Business Owner,689004,0
+CUST_00006,Ananya,Singh,56,Chennai,Software Engineer,2226967,0
+CUST_00007,Meera,Gupta,23,Chennai,Student,2721590,0
+CUST_00008,Vivaan,Sharma,60,Hyderabad,Consultant,634671,0
+CUST_00009,Vikram,Patel,42,Chennai,Manager,2966253,0
+CUST_00010,Aditya,Singh,40,Hyderabad,Consultant,599483,0
+CUST_00011,Aditya,Verma,64,Hyderabad,Teacher,2238859,0
+CUST_00012,Meera,Verma,32,Pune,Software Engineer,1260697,0
+CUST_00013,Neha,Singh,43,Chennai,Business Owner,1184926,0
+CUST_00014,Priya,Singh,31,Ahmedabad,Accountant,2996316,0
+CUST_00015,Rohan,Reddy,33,Chennai,Accountant,2747514,0
+CUST_00016,Arjun,Reddy,50,Ahmedabad,Business Owner,497620,0
+CUST_00017,Aditya,Reddy,68,Kolkata,Business Owner,1913831,0
+CUST_00018,Kavya,Verma,34,Mumbai,Business Owner,2552216,0
+CUST_00019,Neha,Singh,25,Chennai,Accountant,963361,0
+CUST_00020,Kiran,Kumar,50,Bengaluru,Business Owner,2922699,0
+CUST_00021,Rahul,Verma,56,Hyderabad,Teacher,1868308,0
+CUST_00022,Sneha,Verma,18,Pune,Manager,381691,0
+CUST_00023,Ananya,Kumar,33,Mumbai,Doctor,2679667,0
+CUST_00024,Vivaan,Rao,70,Delhi,Teacher,838512,0
+CUST_00025,Sneha,Reddy,34,Kolkata,Doctor,2561971,0
+CUST_00026,Kiran,Das,63,Chennai,Accountant,1866239,0
+CUST_00027,Sneha,Rao,25,Hyderabad,Doctor,568544,0
+CUST_00028,Priya,Verma,32,Hyderabad,Software Engineer,597766,0
+CUST_00029,Aarav,Das,22,Mumbai,Student,597197,0
+CUST_00030,Rohan,Rao,31,Bengaluru,Manager,1319204,0
+CUST_00031,Neha,Gupta,30,Delhi,Business Owner,2107959,0
+CUST_00032,Diya,Rao,73,Mumbai,Business Owner,554227,0
+CUST_00033,Ananya,Patel,33,Hyderabad,Doctor,2549345,0
+CUST_00034,Diya,Reddy,35,Ahmedabad,Doctor,616187,0
+CUST_00035,Vikram,Verma,24,Mumbai,Software Engineer,691172,0
+CUST_00036,Vikram,Das,28,Kolkata,Manager,2318963,0
+CUST_00037,Diya,Sharma,28,Kolkata,Software Engineer,1937547,0
+CUST_00038,Neha,Rao,36,Kolkata,Manager,949264,0
+CUST_00039,Arjun,Sharma,55,Mumbai,Student,539768,0
+CUST_00040,Kavya,Verma,72,Bengaluru,Software Engineer,2429987,0
+CUST_00041,Aditya,Patel,56,Delhi,Doctor,1993557,0
+CUST_00042,Meera,Nair,33,Mumbai,Business Owner,2058356,0
+CUST_00043,Priya,Verma,38,Chennai,Doctor,1617782,0
+CUST_00044,Diya,Reddy,60,Chennai,Manager,1626143,0
+CUST_00045,Meera,Patel,18,Ahmedabad,Business Owner,607277,0
+CUST_00046,Sneha,Kumar,26,Pune,Business Owner,1324603,0
+CUST_00047,Aditya,Rao,71,Chennai,Software Engineer,2626170,0
+CUST_00048,Rahul,Patel,74,Bengaluru,Consultant,784142,0
+CUST_00049,Kiran,Verma,27,Chennai,Consultant,2836840,0
+CUST_00050,Ananya,Das,61,Chennai,Manager,1353278,0
+CUST_00051,Vikram,Sharma,23,Kolkata,Consultant,484913,0
+CUST_00052,Neha,Reddy,58,Chennai,Teacher,2153192,0
+CUST_00053,Diya,Verma,18,Delhi,Business Owner,925178,0
+CUST_00054,Vikram,Singh,55,Bengaluru,Accountant,834545,0
+CUST_00055,Ananya,Sharma,75,Pune,Doctor,1346603,0
+CUST_00056,Ananya,Verma,74,Kolkata,Teacher,1292948,0
+CUST_00057,Neha,Reddy,74,Kolkata,Software Engineer,1052293,0
+CUST_00058,Ananya,Gupta,69,Hyderabad,Consultant,967724,0
+CUST_00059,Vivaan,Gupta,73,Mumbai,Manager,1232954,0
+CUST_00060,Meera,Rao,40,Chennai,Doctor,1235009,0
+CUST_00061,Arjun,Gupta,39,Chennai,Business Owner,1470735,0
+CUST_00062,Sneha,Gupta,61,Pune,Software Engineer,783778,0
+CUST_00063,Rohan,Reddy,55,Chennai,Software Engineer,754673,0
+CUST_00064,Ananya,Singh,45,Delhi,Accountant,2718385,0
+CUST_00065,Aarav,Gupta,18,Hyderabad,Student,2108992,0
+CUST_00066,Rahul,Singh,57,Pune,Business Owner,1559642,0
+CUST_00067,Rahul,Gupta,38,Kolkata,Consultant,2625374,0
+CUST_00068,Diya,Gupta,61,Bengaluru,Consultant,2003202,0
+CUST_00069,Aarav,Kumar,36,Hyderabad,Accountant,2732632,0
+CUST_00070,Ananya,Rao,46,Ahmedabad,Doctor,2444019,0
+CUST_00071,Meera,Reddy,60,Delhi,Consultant,2461962,0
+CUST_00072,Priya,Singh,23,Hyderabad,Consultant,1242211,0
+CUST_00073,Aditya,Sharma,20,Hyderabad,Manager,2863868,0
+CUST_00074,Vivaan,Rao,44,Hyderabad,Accountant,2373568,0
+CUST_00075,Aditya,Sharma,75,Delhi,Accountant,1217886,0
+CUST_00076,Kiran,Verma,47,Mumbai,Doctor,809014,0
+CUST_00077,Neha,Rao,60,Pune,Manager,2869650,0
+CUST_00078,Meera,Verma,45,Ahmedabad,Teacher,2290928,0
+CUST_00079,Neha,Das,71,Chennai,Manager,2928773,0
+CUST_00080,Kavya,Patel,63,Chennai,Doctor,1439655,0
+CUST_00081,Meera,Verma,23,Bengaluru,Teacher,1269980,0
+CUST_00082,Aditya,Das,22,Kolkata,Accountant,1687817,0
+CUST_00083,Diya,Sharma,31,Kolkata,Accountant,2749806,0
+CUST_00084,Aarav,Nair,42,Ahmedabad,Software Engineer,1775383,0
+CUST_00085,Diya,Gupta,52,Hyderabad,Manager,1220321,0
+CUST_00086,Kavya,Sharma,42,Pune,Accountant,992247,0
+CUST_00087,Meera,Reddy,57,Mumbai,Accountant,2782578,0
+CUST_00088,Aarav,Patel,59,Kolkata,Teacher,2236503,0
+CUST_00089,Rohan,Gupta,38,Hyderabad,Manager,1670890,0
+CUST_00090,Meera,Gupta,35,Kolkata,Consultant,643539,0
+CUST_00091,Kiran,Verma,21,Pune,Doctor,587806,0
+CUST_00092,Rahul,Sharma,66,Mumbai,Doctor,1136179,0
+CUST_00093,Priya,Reddy,33,Bengaluru,Manager,779784,0
+CUST_00094,Arjun,Rao,62,Chennai,Student,1003758,0
+CUST_00095,Kiran,Patel,67,Bengaluru,Consultant,753399,0
+CUST_00096,Meera,Kumar,54,Kolkata,Accountant,1131855,0
+CUST_00097,Kiran,Das,24,Chennai,Business Owner,2673693,0
+CUST_00098,Ananya,Verma,45,Pune,Business Owner,2422153,0
+CUST_00099,Aarav,Gupta,70,Ahmedabad,Business Owner,2118328,1
+CUST_00100,Rahul,Rao,63,Bengaluru,Accountant,1038771,0
+CUST_00101,Rahul,Kumar,57,Ahmedabad,Manager,2126931,0
+CUST_00102,Priya,Kumar,38,Hyderabad,Business Owner,1469909,0
+CUST_00103,Arjun,Rao,54,Kolkata,Student,420376,0
+CUST_00104,Ananya,Reddy,49,Hyderabad,Student,1383608,0
+CUST_00105,Meera,Nair,62,Chennai,Software Engineer,2466891,0
+CUST_00106,Vivaan,Das,64,Kolkata,Manager,2628577,0
+CUST_00107,Kiran,Rao,59,Ahmedabad,Manager,372323,0
+CUST_00108,Arjun,Gupta,62,Hyderabad,Consultant,2739220,0
+CUST_00109,Sneha,Verma,40,Kolkata,Student,1775600,0
+CUST_00110,Rohan,Kumar,34,Hyderabad,Business Owner,1107757,0
+CUST_00111,Kiran,Verma,66,Bengaluru,Doctor,1207582,0
+CUST_00112,Rohan,Nair,66,Chennai,Business Owner,1114188,0
+CUST_00113,Ananya,Reddy,37,Mumbai,Teacher,1450545,0
+CUST_00114,Aarav,Verma,36,Bengaluru,Manager,730283,0
+CUST_00115,Priya,Kumar,48,Ahmedabad,Manager,1729024,0
+CUST_00116,Aarav,Kumar,73,Ahmedabad,Business Owner,574070,0
+CUST_00117,Vivaan,Nair,58,Mumbai,Teacher,925780,0
+CUST_00118,Rohan,Patel,33,Delhi,Accountant,2843080,0
+CUST_00119,Priya,Das,67,Kolkata,Manager,2156906,0
+CUST_00120,Priya,Gupta,37,Mumbai,Business Owner,1171525,0
+CUST_00121,Rohan,Patel,28,Hyderabad,Teacher,2615223,0
+CUST_00122,Aarav,Gupta,46,Ahmedabad,Consultant,436901,0
+CUST_00123,Kiran,Kumar,62,Ahmedabad,Business Owner,1279050,0
+CUST_00124,Neha,Nair,60,Hyderabad,Accountant,781406,0
+CUST_00125,Rahul,Reddy,35,Bengaluru,Business Owner,550140,0
+CUST_00126,Rohan,Nair,65,Chennai,Manager,821577,0
+CUST_00127,Rohan,Gupta,35,Ahmedabad,Manager,637397,0
+CUST_00128,Meera,Gupta,65,Pune,Consultant,408485,0
+CUST_00129,Rahul,Nair,55,Mumbai,Consultant,2716955,0
+CUST_00130,Neha,Reddy,48,Ahmedabad,Consultant,1061220,1
+CUST_00131,Diya,Rao,23,Ahmedabad,Student,2012736,0
+CUST_00132,Rahul,Patel,72,Bengaluru,Student,2026564,0
+CUST_00133,Rohan,Gupta,70,Mumbai,Manager,669349,0
+CUST_00134,Ananya,Patel,67,Kolkata,Software Engineer,2575802,0
+CUST_00135,Aarav,Das,51,Pune,Manager,2923154,0
+CUST_00136,Aarav,Das,35,Bengaluru,Consultant,2137592,0
+CUST_00137,Kavya,Patel,19,Hyderabad,Teacher,1603380,0
+CUST_00138,Sneha,Gupta,23,Hyderabad,Business Owner,2235452,0
+CUST_00139,Rahul,Reddy,49,Chennai,Consultant,2042692,0
+CUST_00140,Kavya,Das,47,Bengaluru,Accountant,1099477,0
+CUST_00141,Sneha,Reddy,73,Delhi,Consultant,2040394,0
+CUST_00142,Neha,Verma,35,Mumbai,Consultant,1552233,0
+CUST_00143,Priya,Rao,73,Bengaluru,Manager,2558970,0
+CUST_00144,Ananya,Verma,66,Kolkata,Manager,1649632,0
+CUST_00145,Kiran,Das,54,Kolkata,Doctor,2022915,0
+CUST_00146,Kiran,Rao,63,Kolkata,Accountant,937975,0
+CUST_00147,Aarav,Reddy,50,Pune,Business Owner,2146778,0
+CUST_00148,Meera,Rao,18,Bengaluru,Accountant,947437,0
+CUST_00149,Neha,Kumar,39,Kolkata,Business Owner,1678103,0
+CUST_00150,Vikram,Verma,42,Pune,Manager,2569185,0
+CUST_00151,Vivaan,Das,58,Chennai,Doctor,679078,0
+CUST_00152,Vivaan,Patel,46,Bengaluru,Consultant,421413,0
+CUST_00153,Neha,Sharma,36,Pune,Student,2106431,0
+CUST_00154,Sneha,Gupta,54,Bengaluru,Teacher,1034294,0
+CUST_00155,Vikram,Gupta,57,Hyderabad,Manager,2745938,0
+CUST_00156,Kavya,Kumar,47,Chennai,Software Engineer,2251413,0
+CUST_00157,Rahul,Verma,28,Delhi,Manager,1749407,1
+CUST_00158,Rohan,Gupta,62,Chennai,Manager,1567190,0
+CUST_00159,Diya,Rao,24,Hyderabad,Accountant,2698817,0
+CUST_00160,Rohan,Kumar,19,Kolkata,Consultant,333965,0
+CUST_00161,Rahul,Sharma,56,Ahmedabad,Consultant,1265186,0
+CUST_00162,Ananya,Das,58,Hyderabad,Consultant,873693,0
+CUST_00163,Meera,Sharma,37,Ahmedabad,Software Engineer,2730908,0
+CUST_00164,Aditya,Patel,36,Pune,Accountant,1036687,0
+CUST_00165,Neha,Verma,74,Pune,Consultant,990149,0
+CUST_00166,Vikram,Rao,69,Chennai,Student,783056,0
+CUST_00167,Vivaan,Reddy,66,Hyderabad,Accountant,2637538,0
+CUST_00168,Neha,Gupta,18,Chennai,Business Owner,2207510,0
+CUST_00169,Kiran,Kumar,55,Kolkata,Student,754436,0
+CUST_00170,Kavya,Sharma,57,Pune,Doctor,565151,0
+CUST_00171,Kavya,Kumar,59,Kolkata,Business Owner,886267,0
+CUST_00172,Aarav,Kumar,49,Delhi,Business Owner,1284822,0
+CUST_00173,Aditya,Gupta,47,Pune,Accountant,2763483,0
+CUST_00174,Aditya,Gupta,59,Delhi,Manager,2882232,0
+CUST_00175,Rohan,Sharma,62,Pune,Doctor,2159683,0
+CUST_00176,Arjun,Singh,24,Pune,Student,553965,0
+CUST_00177,Arjun,Patel,72,Ahmedabad,Business Owner,1189636,0
+CUST_00178,Priya,Sharma,21,Pune,Doctor,828163,0
+CUST_00179,Arjun,Patel,71,Hyderabad,Doctor,1277267,0
+CUST_00180,Aditya,Nair,18,Chennai,Teacher,845226,0
+CUST_00181,Neha,Reddy,25,Mumbai,Teacher,362328,0
+CUST_00182,Neha,Das,55,Pune,Software Engineer,1030841,0
+CUST_00183,Aditya,Gupta,51,Delhi,Business Owner,2297520,0
+CUST_00184,Ananya,Verma,55,Delhi,Manager,2413252,0
+CUST_00185,Priya,Sharma,64,Chennai,Manager,2998366,1
+CUST_00186,Aarav,Rao,72,Kolkata,Accountant,752824,0
+CUST_00187,Meera,Rao,22,Delhi,Student,2851384,0
+CUST_00188,Aditya,Kumar,57,Pune,Accountant,2805643,0
+CUST_00189,Kavya,Verma,56,Kolkata,Business Owner,779887,0
+CUST_00190,Rahul,Verma,64,Hyderabad,Accountant,2193958,0
+CUST_00191,Diya,Singh,70,Ahmedabad,Accountant,2044787,0
+CUST_00192,Ananya,Gupta,38,Chennai,Student,940214,0
+CUST_00193,Kavya,Patel,23,Delhi,Business Owner,2111421,0
+CUST_00194,Kiran,Singh,69,Bengaluru,Software Engineer,2759812,1
+CUST_00195,Sneha,Singh,60,Delhi,Accountant,1783097,0
+CUST_00196,Neha,Gupta,73,Mumbai,Consultant,2818302,0
+CUST_00197,Vivaan,Nair,50,Hyderabad,Teacher,2322448,0
+CUST_00198,Vivaan,Singh,72,Pune,Business Owner,1468399,0
+CUST_00199,Neha,Gupta,72,Mumbai,Consultant,421438,0
+CUST_00200,Kiran,Kumar,39,Pune,Software Engineer,1060870,0
+CUST_00201,Priya,Gupta,22,Bengaluru,Software Engineer,684859,0
+CUST_00202,Arjun,Gupta,44,Ahmedabad,Student,960222,0
+CUST_00203,Kiran,Singh,67,Delhi,Software Engineer,952549,0
+CUST_00204,Priya,Sharma,61,Delhi,Consultant,2158550,0
+CUST_00205,Kavya,Nair,46,Kolkata,Consultant,1204161,0
+CUST_00206,Vivaan,Singh,45,Delhi,Consultant,2787785,0
+CUST_00207,Rahul,Kumar,20,Hyderabad,Accountant,2813751,0
+CUST_00208,Arjun,Kumar,31,Bengaluru,Consultant,1514029,0
+CUST_00209,Aarav,Rao,65,Kolkata,Teacher,841844,0
+CUST_00210,Kiran,Das,50,Pune,Business Owner,1965437,0
+CUST_00211,Aarav,Gupta,19,Ahmedabad,Business Owner,1613071,0
+CUST_00212,Priya,Gupta,63,Kolkata,Consultant,783072,0
+CUST_00213,Ananya,Reddy,69,Ahmedabad,Student,669643,0
+CUST_00214,Vivaan,Das,45,Kolkata,Business Owner,1959965,0
+CUST_00215,Kiran,Singh,32,Pune,Teacher,620358,0
+CUST_00216,Vivaan,Verma,50,Hyderabad,Student,1772619,0
+CUST_00217,Vikram,Reddy,33,Delhi,Teacher,1373608,0
+CUST_00218,Priya,Reddy,66,Delhi,Teacher,2933808,0
+CUST_00219,Neha,Nair,66,Ahmedabad,Student,2930740,0
+CUST_00220,Kavya,Patel,48,Ahmedabad,Consultant,1452064,0
+CUST_00221,Ananya,Verma,22,Chennai,Manager,2195464,0
+CUST_00222,Ananya,Kumar,22,Delhi,Accountant,2240753,0
+CUST_00223,Neha,Sharma,46,Hyderabad,Student,2837578,0
+CUST_00224,Aditya,Sharma,46,Delhi,Student,653702,0
+CUST_00225,Aditya,Sharma,33,Ahmedabad,Manager,2498102,0
+CUST_00226,Aditya,Singh,41,Chennai,Accountant,2014503,0
+CUST_00227,Rahul,Nair,21,Pune,Business Owner,1682823,0
+CUST_00228,Rahul,Gupta,36,Chennai,Teacher,1698221,0
+CUST_00229,Rahul,Reddy,40,Chennai,Accountant,840862,0
+CUST_00230,Vivaan,Kumar,53,Kolkata,Student,836005,0
+CUST_00231,Vikram,Verma,23,Kolkata,Student,376464,0
+CUST_00232,Aditya,Das,39,Ahmedabad,Doctor,1250190,1
+CUST_00233,Aditya,Patel,36,Delhi,Software Engineer,1712492,0
+CUST_00234,Priya,Reddy,56,Kolkata,Teacher,980514,0
+CUST_00235,Kiran,Nair,69,Bengaluru,Manager,483259,0
+CUST_00236,Rahul,Das,46,Chennai,Manager,1281479,0
+CUST_00237,Rohan,Rao,75,Hyderabad,Student,2692512,1
+CUST_00238,Kavya,Kumar,67,Kolkata,Accountant,979721,0
+CUST_00239,Neha,Nair,26,Chennai,Software Engineer,2989299,0
+CUST_00240,Ananya,Verma,24,Delhi,Consultant,651797,0
+CUST_00241,Rohan,Rao,75,Bengaluru,Accountant,684674,0
+CUST_00242,Arjun,Rao,74,Pune,Software Engineer,2040203,0
+CUST_00243,Sneha,Singh,33,Kolkata,Business Owner,1872497,0
+CUST_00244,Ananya,Patel,71,Pune,Teacher,877134,0
+CUST_00245,Meera,Rao,62,Bengaluru,Manager,2181570,0
+CUST_00246,Meera,Patel,19,Chennai,Doctor,927130,0
+CUST_00247,Kiran,Nair,51,Kolkata,Business Owner,1508385,0
+CUST_00248,Vivaan,Sharma,33,Kolkata,Manager,563432,0
+CUST_00249,Meera,Rao,56,Mumbai,Doctor,902204,0
+CUST_00250,Aarav,Nair,40,Hyderabad,Accountant,1085651,0
+CUST_00251,Vivaan,Verma,41,Delhi,Software Engineer,1937681,0
+CUST_00252,Aarav,Gupta,41,Chennai,Software Engineer,1797760,0
+CUST_00253,Ananya,Das,64,Delhi,Student,859560,0
+CUST_00254,Sneha,Singh,70,Bengaluru,Manager,2307105,0
+CUST_00255,Neha,Reddy,22,Ahmedabad,Software Engineer,1530787,0
+CUST_00256,Neha,Das,74,Mumbai,Student,1600552,0
+CUST_00257,Vikram,Verma,48,Chennai,Software Engineer,1101545,0
+CUST_00258,Vikram,Sharma,73,Pune,Consultant,822086,0
+CUST_00259,Diya,Gupta,65,Ahmedabad,Accountant,1722022,1
+CUST_00260,Kavya,Rao,41,Chennai,Business Owner,2080480,0
+CUST_00261,Priya,Reddy,52,Chennai,Student,730326,0
+CUST_00262,Rahul,Kumar,37,Ahmedabad,Accountant,998958,0
+CUST_00263,Ananya,Rao,20,Pune,Accountant,1451568,0
+CUST_00264,Neha,Sharma,22,Kolkata,Student,2452038,0
+CUST_00265,Rahul,Reddy,19,Bengaluru,Manager,445957,0
+CUST_00266,Arjun,Singh,41,Kolkata,Software Engineer,2837951,0
+CUST_00267,Kavya,Singh,41,Ahmedabad,Business Owner,2707202,0
+CUST_00268,Ananya,Gupta,38,Chennai,Doctor,775837,0
+CUST_00269,Aditya,Rao,51,Kolkata,Business Owner,1397970,0
+CUST_00270,Kiran,Rao,31,Chennai,Manager,1139608,0
+CUST_00271,Vikram,Patel,46,Bengaluru,Manager,668221,0
+CUST_00272,Vikram,Singh,60,Pune,Business Owner,2606855,0
+CUST_00273,Meera,Kumar,72,Bengaluru,Teacher,1816208,0
+CUST_00274,Vivaan,Das,68,Bengaluru,Doctor,2372078,0
+CUST_00275,Sneha,Nair,41,Ahmedabad,Teacher,2866697,0
+CUST_00276,Vivaan,Kumar,43,Ahmedabad,Accountant,2017288,0
+CUST_00277,Vivaan,Reddy,38,Delhi,Manager,2253846,0
+CUST_00278,Ananya,Reddy,74,Bengaluru,Teacher,2114532,0
+CUST_00279,Vikram,Sharma,71,Delhi,Teacher,1575590,0
+CUST_00280,Ananya,Das,40,Chennai,Business Owner,1351114,0
+CUST_00281,Sneha,Kumar,26,Chennai,Business Owner,2407944,0
+CUST_00282,Priya,Nair,27,Bengaluru,Student,2663985,0
+CUST_00283,Vikram,Sharma,23,Mumbai,Consultant,1184194,0
+CUST_00284,Diya,Nair,58,Mumbai,Manager,2930516,0
+CUST_00285,Rahul,Kumar,48,Hyderabad,Accountant,1547528,0
+CUST_00286,Kiran,Sharma,28,Ahmedabad,Accountant,2331096,0
+CUST_00287,Ananya,Nair,27,Pune,Student,1748589,1
+CUST_00288,Aditya,Singh,50,Delhi,Student,1313922,0
+CUST_00289,Rohan,Rao,33,Bengaluru,Business Owner,512253,0
+CUST_00290,Diya,Nair,44,Hyderabad,Teacher,1673365,0
+CUST_00291,Kiran,Singh,30,Bengaluru,Manager,2458912,0
+CUST_00292,Meera,Kumar,49,Mumbai,Business Owner,1949377,0
+CUST_00293,Arjun,Das,55,Pune,Software Engineer,511981,0
+CUST_00294,Priya,Rao,36,Mumbai,Business Owner,2107442,0
+CUST_00295,Rohan,Singh,66,Kolkata,Student,489760,0
+CUST_00296,Priya,Verma,30,Pune,Consultant,608414,0
+CUST_00297,Kavya,Verma,35,Delhi,Teacher,705511,0
+CUST_00298,Neha,Singh,53,Pune,Teacher,1134909,0
+CUST_00299,Diya,Verma,20,Mumbai,Software Engineer,874772,0
+CUST_00300,Neha,Rao,51,Ahmedabad,Teacher,2842840,0
+CUST_00301,Aditya,Singh,57,Pune,Teacher,1948170,1
+CUST_00302,Kiran,Kumar,55,Pune,Manager,2661075,0
+CUST_00303,Vikram,Sharma,41,Pune,Business Owner,2047096,0
+CUST_00304,Neha,Sharma,56,Ahmedabad,Consultant,2726297,0
+CUST_00305,Kiran,Sharma,55,Ahmedabad,Teacher,2498789,0
+CUST_00306,Priya,Gupta,27,Hyderabad,Software Engineer,2701533,0
+CUST_00307,Vivaan,Das,19,Ahmedabad,Student,2056491,0
+CUST_00308,Kiran,Das,44,Ahmedabad,Software Engineer,879159,0
+CUST_00309,Sneha,Singh,60,Ahmedabad,Accountant,1615973,1
+CUST_00310,Kavya,Verma,39,Pune,Consultant,2858846,0
+CUST_00311,Arjun,Kumar,53,Chennai,Doctor,1548285,0
+CUST_00312,Kiran,Das,62,Ahmedabad,Student,2312441,0
+CUST_00313,Meera,Kumar,36,Delhi,Accountant,1954789,0
+CUST_00314,Neha,Reddy,36,Mumbai,Consultant,631473,0
+CUST_00315,Kavya,Kumar,65,Ahmedabad,Doctor,1147534,0
+CUST_00316,Rohan,Verma,62,Chennai,Teacher,758129,0
+CUST_00317,Priya,Das,33,Mumbai,Doctor,2975733,0
+CUST_00318,Vivaan,Gupta,39,Ahmedabad,Business Owner,876578,0
+CUST_00319,Sneha,Reddy,44,Ahmedabad,Manager,1136578,0
+CUST_00320,Rohan,Singh,36,Mumbai,Business Owner,2708089,0
+CUST_00321,Kiran,Sharma,29,Kolkata,Teacher,452420,1
+CUST_00322,Diya,Rao,29,Chennai,Software Engineer,338869,0
+CUST_00323,Priya,Patel,39,Chennai,Manager,2989859,0
+CUST_00324,Kavya,Reddy,72,Ahmedabad,Consultant,1108709,0
+CUST_00325,Ananya,Reddy,64,Ahmedabad,Consultant,1080975,0
+CUST_00326,Ananya,Kumar,54,Hyderabad,Teacher,2862528,0
+CUST_00327,Meera,Gupta,70,Kolkata,Student,663804,0
+CUST_00328,Vivaan,Reddy,26,Ahmedabad,Student,1340384,0
+CUST_00329,Diya,Das,46,Chennai,Student,1566452,0
+CUST_00330,Priya,Sharma,34,Pune,Doctor,560568,0
+CUST_00331,Kavya,Kumar,28,Kolkata,Consultant,792477,0
+CUST_00332,Rohan,Singh,57,Hyderabad,Doctor,860228,0
+CUST_00333,Kavya,Nair,41,Kolkata,Manager,2554512,0
+CUST_00334,Vikram,Das,66,Hyderabad,Business Owner,2504134,0
+CUST_00335,Kiran,Singh,22,Delhi,Software Engineer,2597007,0
+CUST_00336,Arjun,Nair,52,Bengaluru,Teacher,1676225,0
+CUST_00337,Kavya,Patel,61,Hyderabad,Manager,681436,0
+CUST_00338,Kavya,Sharma,47,Bengaluru,Accountant,2215951,0
+CUST_00339,Sneha,Rao,61,Chennai,Software Engineer,1960729,0
+CUST_00340,Aarav,Das,55,Delhi,Software Engineer,2077115,0
+CUST_00341,Vivaan,Verma,21,Delhi,Manager,433105,0
+CUST_00342,Aditya,Reddy,67,Kolkata,Student,1904235,0
+CUST_00343,Meera,Gupta,42,Delhi,Teacher,1758652,0
+CUST_00344,Sneha,Gupta,51,Bengaluru,Doctor,314568,0
+CUST_00345,Rohan,Rao,61,Kolkata,Accountant,1263280,0
+CUST_00346,Ananya,Reddy,35,Hyderabad,Business Owner,435129,0
+CUST_00347,Diya,Nair,67,Mumbai,Doctor,1164368,0
+CUST_00348,Priya,Sharma,46,Mumbai,Doctor,485542,0
+CUST_00349,Arjun,Verma,31,Mumbai,Teacher,2413492,1
+CUST_00350,Arjun,Nair,38,Pune,Doctor,1565691,0
+CUST_00351,Rahul,Verma,32,Kolkata,Consultant,1454079,0
+CUST_00352,Priya,Reddy,58,Kolkata,Manager,496646,1
+CUST_00353,Rahul,Gupta,68,Pune,Accountant,2012363,0
+CUST_00354,Diya,Reddy,66,Ahmedabad,Doctor,1245163,0
+CUST_00355,Kiran,Reddy,69,Ahmedabad,Software Engineer,2658817,0
+CUST_00356,Diya,Verma,51,Bengaluru,Accountant,1318622,0
+CUST_00357,Ananya,Patel,46,Pune,Business Owner,2546618,0
+CUST_00358,Arjun,Sharma,35,Kolkata,Software Engineer,605279,0
+CUST_00359,Neha,Nair,64,Hyderabad,Manager,1176144,0
+CUST_00360,Ananya,Kumar,18,Hyderabad,Doctor,792059,0
+CUST_00361,Neha,Rao,33,Hyderabad,Accountant,1303826,0
+CUST_00362,Neha,Kumar,42,Ahmedabad,Student,1593616,0
+CUST_00363,Sneha,Rao,47,Delhi,Manager,1643155,0
+CUST_00364,Ananya,Singh,44,Mumbai,Doctor,912044,0
+CUST_00365,Sneha,Nair,55,Kolkata,Consultant,939259,0
+CUST_00366,Arjun,Gupta,54,Hyderabad,Manager,2609562,0
+CUST_00367,Rahul,Singh,34,Ahmedabad,Manager,2232856,0
+CUST_00368,Neha,Singh,28,Bengaluru,Manager,1071952,0
+CUST_00369,Sneha,Sharma,51,Mumbai,Business Owner,503484,0
+CUST_00370,Diya,Reddy,71,Hyderabad,Business Owner,933464,0
+CUST_00371,Sneha,Rao,41,Mumbai,Manager,2346209,0
+CUST_00372,Sneha,Verma,44,Mumbai,Software Engineer,2520538,0
+CUST_00373,Sneha,Kumar,19,Kolkata,Teacher,748859,0
+CUST_00374,Sneha,Reddy,33,Hyderabad,Consultant,1786633,0
+CUST_00375,Diya,Patel,41,Kolkata,Manager,2669790,0
+CUST_00376,Kiran,Das,37,Delhi,Software Engineer,692169,0
+CUST_00377,Diya,Verma,48,Mumbai,Software Engineer,1018834,0
+CUST_00378,Vikram,Gupta,59,Pune,Business Owner,2515260,0
+CUST_00379,Arjun,Das,75,Ahmedabad,Consultant,495295,0
+CUST_00380,Rahul,Kumar,75,Mumbai,Teacher,1619044,0
+CUST_00381,Arjun,Nair,27,Kolkata,Business Owner,1555258,0
+CUST_00382,Arjun,Nair,71,Kolkata,Student,1909967,0
+CUST_00383,Aditya,Patel,50,Pune,Software Engineer,709723,0
+CUST_00384,Vikram,Patel,39,Kolkata,Student,424259,0
+CUST_00385,Neha,Rao,49,Hyderabad,Student,2619608,0
+CUST_00386,Diya,Reddy,61,Kolkata,Business Owner,2894663,0
+CUST_00387,Arjun,Patel,23,Chennai,Teacher,1893835,0
+CUST_00388,Rahul,Reddy,65,Kolkata,Student,1812886,0
+CUST_00389,Aarav,Kumar,46,Pune,Consultant,728789,0
+CUST_00390,Aditya,Gupta,46,Kolkata,Business Owner,410150,0
+CUST_00391,Sneha,Patel,56,Pune,Accountant,351760,0
+CUST_00392,Diya,Patel,64,Hyderabad,Teacher,1896905,0
+CUST_00393,Rohan,Kumar,35,Ahmedabad,Teacher,565361,0
+CUST_00394,Rohan,Gupta,37,Ahmedabad,Business Owner,1814667,0
+CUST_00395,Arjun,Rao,56,Hyderabad,Manager,748674,0
+CUST_00396,Aarav,Gupta,39,Kolkata,Student,2146428,0
+CUST_00397,Vikram,Nair,26,Chennai,Student,2830051,0
+CUST_00398,Arjun,Rao,38,Bengaluru,Accountant,1638560,0
+CUST_00399,Kiran,Rao,54,Hyderabad,Student,1877290,0
+CUST_00400,Neha,Gupta,41,Delhi,Doctor,2783980,1
+CUST_00401,Aditya,Verma,19,Ahmedabad,Doctor,2139013,0
+CUST_00402,Vikram,Patel,70,Kolkata,Manager,883759,0
+CUST_00403,Arjun,Kumar,60,Bengaluru,Accountant,1881214,0
+CUST_00404,Priya,Rao,55,Kolkata,Accountant,2580213,0
+CUST_00405,Ananya,Verma,56,Delhi,Business Owner,1341156,0
+CUST_00406,Ananya,Reddy,59,Mumbai,Accountant,1690817,1
+CUST_00407,Diya,Patel,18,Delhi,Consultant,1231140,0
+CUST_00408,Sneha,Verma,55,Hyderabad,Manager,1869171,0
+CUST_00409,Neha,Nair,62,Bengaluru,Student,403023,0
+CUST_00410,Rohan,Gupta,23,Delhi,Teacher,1760996,0
+CUST_00411,Kavya,Das,51,Ahmedabad,Student,2297170,0
+CUST_00412,Kiran,Rao,38,Delhi,Consultant,487414,0
+CUST_00413,Vivaan,Sharma,72,Pune,Business Owner,989351,0
+CUST_00414,Kiran,Das,51,Bengaluru,Teacher,1688271,0
+CUST_00415,Kavya,Das,69,Kolkata,Teacher,1081763,0
+CUST_00416,Diya,Gupta,19,Hyderabad,Manager,2783880,0
+CUST_00417,Aarav,Das,31,Chennai,Business Owner,2721572,0
+CUST_00418,Vikram,Verma,29,Pune,Student,1126589,0
+CUST_00419,Rohan,Rao,51,Pune,Accountant,2864013,0
+CUST_00420,Vivaan,Singh,40,Ahmedabad,Teacher,1547574,0
+CUST_00421,Priya,Patel,61,Bengaluru,Student,794347,0
+CUST_00422,Vivaan,Reddy,41,Bengaluru,Accountant,2054221,0
+CUST_00423,Priya,Gupta,45,Bengaluru,Manager,2965487,0
+CUST_00424,Meera,Reddy,53,Bengaluru,Manager,1511460,0
+CUST_00425,Ananya,Rao,57,Mumbai,Student,340195,0
+CUST_00426,Arjun,Gupta,53,Ahmedabad,Accountant,2362447,0
+CUST_00427,Vikram,Rao,49,Bengaluru,Business Owner,2671450,0
+CUST_00428,Neha,Das,36,Mumbai,Consultant,1243061,0
+CUST_00429,Aditya,Rao,54,Ahmedabad,Business Owner,2702136,0
+CUST_00430,Neha,Verma,70,Pune,Software Engineer,2151225,0
+CUST_00431,Diya,Patel,65,Hyderabad,Consultant,435184,0
+CUST_00432,Ananya,Patel,46,Delhi,Doctor,1180292,0
+CUST_00433,Priya,Singh,73,Kolkata,Teacher,2884325,0
+CUST_00434,Arjun,Das,69,Mumbai,Student,2532547,0
+CUST_00435,Sneha,Reddy,38,Chennai,Consultant,2702227,0
+CUST_00436,Vikram,Verma,75,Delhi,Teacher,2026359,0
+CUST_00437,Rohan,Reddy,62,Bengaluru,Doctor,913389,0
+CUST_00438,Vikram,Das,66,Kolkata,Manager,896311,0
+CUST_00439,Rohan,Gupta,42,Ahmedabad,Business Owner,2957627,0
+CUST_00440,Neha,Patel,43,Chennai,Student,2207131,1
+CUST_00441,Ananya,Nair,18,Delhi,Manager,2962714,0
+CUST_00442,Ananya,Patel,68,Kolkata,Doctor,2102053,0
+CUST_00443,Kavya,Kumar,38,Chennai,Student,2595586,0
+CUST_00444,Priya,Rao,68,Pune,Software Engineer,492698,0
+CUST_00445,Neha,Rao,19,Delhi,Teacher,2150887,0
+CUST_00446,Diya,Das,62,Bengaluru,Consultant,966799,0
+CUST_00447,Meera,Kumar,23,Pune,Consultant,645696,0
+CUST_00448,Meera,Reddy,21,Kolkata,Consultant,1282070,0
+CUST_00449,Vivaan,Patel,18,Hyderabad,Manager,626898,0
+CUST_00450,Arjun,Verma,61,Ahmedabad,Software Engineer,333816,0
+CUST_00451,Vikram,Patel,73,Kolkata,Teacher,2303620,0
+CUST_00452,Diya,Patel,64,Delhi,Business Owner,1614291,0
+CUST_00453,Rohan,Reddy,42,Bengaluru,Teacher,586939,0
+CUST_00454,Aarav,Nair,59,Bengaluru,Manager,1772988,0
+CUST_00455,Rahul,Reddy,44,Ahmedabad,Doctor,663595,0
+CUST_00456,Aditya,Patel,55,Kolkata,Student,2100986,0
+CUST_00457,Aditya,Das,35,Delhi,Doctor,2621113,0
+CUST_00458,Kiran,Nair,36,Mumbai,Consultant,1161701,0
+CUST_00459,Sneha,Das,65,Kolkata,Consultant,528879,0
+CUST_00460,Neha,Das,49,Kolkata,Business Owner,1311170,0
+CUST_00461,Priya,Patel,51,Mumbai,Student,1627382,0
+CUST_00462,Vikram,Nair,44,Pune,Teacher,2275578,1
+CUST_00463,Neha,Patel,19,Delhi,Software Engineer,1399684,0
+CUST_00464,Meera,Sharma,68,Kolkata,Consultant,2936416,0
+CUST_00465,Neha,Gupta,45,Kolkata,Business Owner,2986608,0
+CUST_00466,Priya,Reddy,35,Delhi,Consultant,631440,0
+CUST_00467,Arjun,Reddy,52,Pune,Accountant,2759695,0
+CUST_00468,Vikram,Patel,37,Kolkata,Doctor,542875,0
+CUST_00469,Meera,Gupta,25,Ahmedabad,Software Engineer,1597256,0
+CUST_00470,Rahul,Reddy,25,Mumbai,Teacher,347607,0
+CUST_00471,Ananya,Verma,51,Chennai,Teacher,1859733,0
+CUST_00472,Neha,Kumar,64,Delhi,Software Engineer,1705138,0
+CUST_00473,Rohan,Verma,22,Chennai,Business Owner,2380993,0
+CUST_00474,Ananya,Sharma,49,Bengaluru,Student,959805,0
+CUST_00475,Vivaan,Nair,61,Delhi,Doctor,2434166,0
+CUST_00476,Vikram,Sharma,33,Mumbai,Manager,1826628,0
+CUST_00477,Aditya,Reddy,72,Mumbai,Accountant,1241685,0
+CUST_00478,Diya,Singh,35,Delhi,Student,800803,0
+CUST_00479,Meera,Sharma,29,Hyderabad,Software Engineer,1981600,0
+CUST_00480,Kavya,Kumar,67,Chennai,Student,662327,0
+CUST_00481,Aarav,Singh,30,Chennai,Consultant,2911866,0
+CUST_00482,Ananya,Nair,49,Hyderabad,Doctor,931521,0
+CUST_00483,Diya,Sharma,32,Pune,Software Engineer,1705164,0
+CUST_00484,Rahul,Gupta,72,Chennai,Business Owner,1160647,0
+CUST_00485,Arjun,Gupta,49,Mumbai,Teacher,1473672,0
+CUST_00486,Meera,Das,75,Kolkata,Student,2222912,1
+CUST_00487,Vivaan,Nair,24,Bengaluru,Accountant,613861,0
+CUST_00488,Aarav,Gupta,60,Bengaluru,Doctor,1523377,0
+CUST_00489,Ananya,Gupta,62,Pune,Student,2199004,0
+CUST_00490,Vivaan,Das,26,Delhi,Teacher,743160,0
+CUST_00491,Kavya,Singh,44,Delhi,Student,1170889,0
+CUST_00492,Kavya,Kumar,72,Delhi,Business Owner,961086,0
+CUST_00493,Rohan,Nair,20,Hyderabad,Student,922115,0
+CUST_00494,Arjun,Singh,43,Mumbai,Consultant,1391218,0
+CUST_00495,Aditya,Sharma,43,Ahmedabad,Doctor,697306,0
+CUST_00496,Neha,Reddy,25,Mumbai,Software Engineer,1232344,0
+CUST_00497,Vikram,Gupta,41,Delhi,Consultant,614519,0
+CUST_00498,Vivaan,Das,75,Ahmedabad,Teacher,685786,0
+CUST_00499,Vikram,Singh,25,Mumbai,Manager,512389,0
+CUST_00500,Priya,Gupta,70,Kolkata,Manager,423657,0
