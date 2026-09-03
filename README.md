@@ -115,15 +115,9 @@ Financial-Crime-Intelligence-Platform/
 │   └── app.py
 │
 ├── data/
-│   ├── raw/
 │   ├── synthetic/
 │   └── processed/
 │
-├── notebooks/
-│
-├── reports/
-│
-├── sql/
 │
 ├── src/
 │   ├── anomaly_detection/
