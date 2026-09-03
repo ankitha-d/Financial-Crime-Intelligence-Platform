@@ -8,20 +8,34 @@ def create_transaction_features(df):
 
     df = df.copy()
 
-    # Transaction amount categories
-    df["is_high_value"] = (df["amount"] > 100000).astype(int)
-
-    # Log transformation for amount
-    df["log_amount"] = (df["amount"] + 1).apply(lambda x: __import__("math").log(x))
-
-    # Extract transaction hour
+    # Ensure timestamp is a datetime
     df["transaction_timestamp"] = pd.to_datetime(
         df["transaction_timestamp"]
     )
 
-    df["transaction_hour"] = df["transaction_timestamp"].dt.hour
+    # Transaction amount features
+    df["high_value_transaction"] = (
+        df["amount"] > 100000
+    ).astype(int)
 
-    # Flag unusual hours
+    # Keep a descriptive alias for readability
+    df["is_high_value"] = df["high_value_transaction"]
+
+    # Log transformation for transaction amount
+    df["log_amount"] = (
+        df["amount"] + 1
+    ).apply(lambda x: __import__("math").log(x))
+
+    # Time-based features
+    df["transaction_hour"] = (
+        df["transaction_timestamp"].dt.hour
+    )
+
+    df["transaction_day_of_week"] = (
+        df["transaction_timestamp"].dt.dayofweek
+    )
+
+    # Flag unusual transaction hours
     df["is_unusual_hour"] = (
         (df["transaction_hour"] < 6)
         | (df["transaction_hour"] > 22)
@@ -48,9 +62,10 @@ if __name__ == "__main__":
             [
                 "transaction_id",
                 "amount",
-                "is_high_value",
-                "log_amount",
+                "high_value_transaction",
                 "transaction_hour",
+                "transaction_day_of_week",
+                "log_amount",
                 "is_unusual_hour",
             ]
         ].head()

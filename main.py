@@ -47,11 +47,6 @@ if __name__ == "__main__":
         ),
 
         (
-            "src/data_quality/data_cleaning.py",
-            "Data Quality Processing"
-        ),
-
-        (
             "src/feature_engineering/transaction_features.py",
             "Transaction Feature Engineering"
         ),
@@ -67,9 +62,9 @@ if __name__ == "__main__":
         ),
 
         (
-            "src/rule_engine/rule_engine.py",
-            "Rule-Based Detection"
-        ),
+    "src/rule_engine/transaction_rules.py",
+    "Rule-Based Detection"
+),
 
         (
             "src/risk_scoring/risk_score.py",
