@@ -1,6 +1,6 @@
 # 🔍 Financial Crime Intelligence Platform
 
-An end-to-end AI-powered Financial Crime Intelligence Platform designed to identify suspicious transactions using anomaly detection, rule-based monitoring, risk scoring, network analysis, and entity resolution.
+An end-to-end Financial Crime Intelligence Platform designed to identify suspicious transactions using anomaly detection, rule-based monitoring, risk scoring, network analysis, and entity resolution.
 
 ## 🚀 Live Demo
 
