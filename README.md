@@ -1,114 +1,141 @@
-# 🔍 Financial Crime Intelligence Platform
+🔍 Financial Crime Intelligence Platform
 
-An end-to-end Financial Crime Intelligence Platform designed to identify suspicious transactions using anomaly detection, rule-based monitoring, risk scoring, network analysis, and entity resolution.
+An end-to-end Financial Crime Intelligence Platform that simulates transaction monitoring and investigation workflows using anomaly detection, rule-based monitoring, risk scoring, network analysis, entity resolution, and investigation prioritization.
 
-## 🚀 Live Demo
+🚀 Live Demo
 
 🔗 Streamlit Application: https://financial-crime-intelligence-platform-8phklg6eodkk6odb9cc6r6.streamlit.app/
 
-## 📌 Project Overview
+📌 Project Overview
 
-Financial institutions process millions of transactions every day, making manual detection of suspicious activity difficult.
+Financial institutions process large volumes of transactions, making manual identification and prioritization of potentially suspicious activity difficult.
 
-This platform simulates a financial transaction monitoring system that combines multiple analytical techniques to identify potentially suspicious transactions and prioritize them based on risk.
+This project simulates a financial crime analytics workflow using synthetic transaction data. Multiple analytical signals are combined to identify unusual activity, assign risk levels, and prioritize transactions for further investigation.
 
-The platform includes:
+Disclaimer: This project uses synthetic data and simulated detection rules for educational and portfolio purposes. It is not intended for production AML compliance or regulatory decision-making.
 
-* Synthetic customer and transaction data generation
-* Data quality checks
-* Feature engineering
-* Transaction aggregation
-* Isolation Forest anomaly detection
-* Rule-based suspicious activity detection
-* Risk scoring
-* Entity resolution
-* Network analysis
-* Investigation case generation
-* Interactive Streamlit dashboard
-
-## 🏗️ Project Architecture
-
-```text
-Raw Data
-   │
-   ▼
-Data Quality Checks
-   │
-   ▼
+Platform Workflow
+Synthetic Data Generation
+        │
+        ▼
+Data Quality & Validation
+        │
+        ▼
 Feature Engineering
-   │
-   ├──────────────► Aggregation Features
-   │
-   ▼
-Anomaly Detection
-   │
-   ▼
-Rule Engine
-   │
-   ▼
+        │
+        ├──────────────► Aggregation Features
+        │
+        ▼
+ML Anomaly Detection
+        │
+        ▼
+Rule-Based Detection
+        │
+        ▼
 Risk Scoring
-   │
-   ├──────────────► Entity Resolution
-   │
-   ├──────────────► Network Analysis
-   │
-   ▼
-Investigation Cases
-   │
-   ▼
+        │
+        ├──────────────► Entity Resolution
+        │
+        ├──────────────► Network Analysis
+        │
+        ▼
+Investigation Intelligence
+        │
+        ▼
 Streamlit Dashboard
-```
+🧠 Key Features
+🔎 Anomaly Detection
 
-## 🧠 Key Features
+Uses the Isolation Forest algorithm to identify unusual transactions based on engineered transaction characteristics including:
 
-### 🔎 Anomaly Detection
+Transaction amount
+Log-transformed transaction amount
+Transaction hour
+Day of week
+High-value transaction indicator
 
-Uses the Isolation Forest algorithm to identify unusual transactions based on engineered transaction features.
+The current configuration uses a 5% Isolation Forest contamination setting.
 
-### 📜 Rule Engine
+📜 Rule-Based Monitoring
 
-Detects suspicious patterns using business rules such as:
+Applies configurable transaction-monitoring rules based on:
 
-* High-value transactions
-* Transactions involving high-risk countries
-* Transactions occurring during unusual hours
-* Multiple rule triggers
+High-value transactions
+Geographic-risk indicators
+Unusual transaction hours
+Multiple simultaneous rule triggers
+⚠️ Risk Scoring
 
-### ⚠️ Risk Scoring
+Combines multiple analytical signals into a transaction-level risk score.
 
-Combines signals from:
+The current scoring model considers:
 
-* Rule-based detection
-* Anomaly detection
-* Transaction characteristics
+Rule-trigger count
+ML anomaly detection
+High-value transaction indicators
 
-Transactions are assigned a risk score and categorized by risk level.
+Transactions are categorized into LOW, MEDIUM, and HIGH risk levels.
 
-### 🕸️ Network Analysis
+🕸️ Network Analysis
 
-Analyzes relationships between accounts to identify potentially suspicious transaction networks.
+Builds a transaction network connecting source and destination accounts.
 
-### 👤 Entity Resolution
+Network features include:
 
-Identifies potential duplicate or similar customer entities to support investigation workflows.
+Incoming transaction relationships
+Outgoing transaction relationships
+Total connections
+Degree centrality
 
-### 📁 Investigation Cases
+These features support identification of accounts with potentially unusual transaction connectivity.
 
-Generates investigation-ready cases for transactions requiring further review.
+👤 Entity Resolution
 
-## 📊 Technology Stack
+Normalizes customer names and identifies potential duplicate entities using matching characteristics such as:
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Streamlit
-* NetworkX
-* Jupyter Notebook
+Customer name
+City
+Name frequency
 
-## 📂 Project Structure
+Potential duplicate records are surfaced for further investigation rather than treated as confirmed matches.
 
-```text
+📁 Investigation Intelligence
+
+Combines transaction risk and network information to prioritize transactions for investigation.
+
+Investigation records include:
+
+Risk level
+Investigation priority
+Investigation reason
+Network characteristics
+Detection signals
+📊 Results
+
+The current synthetic dataset contains 10,000 transactions.
+
+Metric	Result
+Transactions analyzed	10,000
+ML anomalies detected	500
+High-value rule triggers	405
+Geographic-risk rule triggers	3,305
+Unusual-hour rule triggers	1,998
+Transactions requiring investigation	421
+Customers analyzed	500
+Accounts represented in network	1,000
+
+The Isolation Forest detected 500 anomalies, representing 5% of the transaction dataset under the current configured contamination level.
+
+🛠️ Technology Stack
+Python
+Pandas
+NumPy
+Scikit-learn
+NetworkX
+Plotly
+Streamlit
+Git / GitHub
+📂 Project Structure
 Financial-Crime-Intelligence-Platform/
 │
 ├── dashboard/
@@ -117,7 +144,6 @@ Financial-Crime-Intelligence-Platform/
 ├── data/
 │   ├── synthetic/
 │   └── processed/
-│
 │
 ├── src/
 │   ├── anomaly_detection/
@@ -134,47 +160,59 @@ Financial-Crime-Intelligence-Platform/
 ├── config.py
 ├── requirements.txt
 └── README.md
-```
-
-## ⚙️ Installation
+⚙️ Installation
 
 Clone the repository:
 
-```bash
 git clone https://github.com/ankitha-d/Financial-Crime-Intelligence-Platform.git
-```
 
 Navigate to the project:
 
-```bash
 cd Financial-Crime-Intelligence-Platform
-```
 
 Create a virtual environment:
 
-```bash
 python -m venv venv
-```
 
-Activate the environment:
+Activate the environment on Windows:
 
-```bash
 venv\Scripts\activate
-```
 
 Install dependencies:
 
-```bash
 pip install -r requirements.txt
-```
+▶️ Run the Complete Pipeline
 
-## ▶️ Run the Dashboard
+Run the end-to-end analytical pipeline:
 
-```bash
+python main.py
+
+The pipeline executes:
+
+Customer data generation
+Account data generation
+Transaction data generation
+Transaction feature engineering
+Aggregation feature engineering
+ML anomaly detection
+Rule-based detection
+Risk scoring
+Network analysis
+Entity resolution
+Investigation intelligence
+
+Generated analytical outputs are stored in:
+
+data/processed/
+📊 Run the Dashboard
+
+Launch the interactive Streamlit dashboard:
+
 streamlit run dashboard/app.py
-```
 
-## 🌐 Deployment
+The dashboard provides an interactive view of transaction risk and investigation results.
+
+🌐 Deployment
 
 The application is deployed using Streamlit Community Cloud.
 
@@ -182,21 +220,35 @@ Live Application:
 
 https://financial-crime-intelligence-platform-8phklg6eodkk6odb9cc6r6.streamlit.app/
 
-## 🎯 Skills Demonstrated
+🎯 Skills Demonstrated
+Data Processing & Validation
+Feature Engineering
+Machine Learning
+Anomaly Detection
+Financial Risk Analytics
+Rule-Based Detection
+Risk Scoring
+Network Analysis
+Entity Resolution
+Investigation Prioritization
+Data Visualization
+Streamlit Deployment
+Git / GitHub
+🔮 Future Improvements
 
-* Data Engineering
-* Feature Engineering
-* Machine Learning
-* Anomaly Detection
-* Financial Risk Analytics
-* Rule-Based Systems
-* Network Analysis
-* Entity Resolution
-* Data Visualization
-* Streamlit Deployment
+Potential future extensions include:
 
-## 👩‍💻 Author
+Persistent database integration
+SQL-based analytical workflows
+More advanced behavioral features
+Graph-based suspicious activity detection
+Explainable risk scoring
+Automated investigation reporting
+Model evaluation against labeled synthetic scenarios
+More sophisticated entity matching
 
-**Ankitha D**
+👩‍💻 Author
+
+Ankitha D
 
 GitHub: https://github.com/ankitha-d
