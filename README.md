@@ -203,6 +203,6 @@ https://financial-crime-intelligence-platform-8phklg6eodkk6odb9cc6r6.streamlit.a
 
 ## 👩‍💻 Author
 
-**Ankitha Dasu**
+**Ankitha D**
 
 GitHub: https://github.com/ankitha-d
